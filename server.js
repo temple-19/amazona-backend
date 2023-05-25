@@ -149,10 +149,10 @@ app.use('/api/orders', orderRouter);
 
 // const __dirname = path.resolve();
 // app.use(express.static(path.join(__dirname, '/frontend/build')));
-app.get('/', (req, res) =>{
-  res.send("its is on")
-}
-);
+// app.get('/', (req, res) =>{
+//   res.send("its is on")
+// }
+// );
 
 
 app.use((err, req, res, next) => {
