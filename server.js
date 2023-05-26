@@ -67,7 +67,7 @@ app.post('/api/proxy', async (req, res) => {
       {
         headers: {
           'Content-Type': 'application/json',
-          Authorization: 'Passcode MzAwMjEzNDExOjhCZkVjNDU0M2M0MDRFMThiZmViODY3Y0JFMWJFMjc3',
+          Authorization: process.env.BMAPI,
         },
       }
     );
@@ -86,7 +86,7 @@ app.post('/api/proxy', async (req, res) => {
       {
         headers: {
           'Content-Type': 'application/json',
-          Authorization: 'Passcode MzAwMjEzNDExOjIxYzhjZmU3ZmNGNjQ3NGY5MjBDYzhmYzU2NDc4OTZC',
+          Authorization: process.env.BMPAY,
         },
       }
     );
@@ -102,7 +102,7 @@ app.post('/api/proxy', async (req, res) => {
         {
           headers: {
             'Content-Type': 'application/json',
-            Authorization: 'Passcode MzAwMjEzNDExOjhCZkVjNDU0M2M0MDRFMThiZmViODY3Y0JFMWJFMjc3',
+            Authorization: process.env.BMAPI,
           },
         }
       );
@@ -131,7 +131,7 @@ app.post('/api/proxy', async (req, res) => {
         {
           headers: {
             'Content-Type': 'application/json',
-            Authorization: 'Passcode MzAwMjEzNDExOjIxYzhjZmU3ZmNGNjQ3NGY5MjBDYzhmYzU2NDc4OTZC',
+            Authorization: process.env.BMPAY,
           },
         }
       );
